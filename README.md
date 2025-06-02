@@ -1,4 +1,8 @@
-## Hi there 👋
+### Hi, I'm Andrew!
+
+💻 Computer Engineer Documenting my Projects/Learning <br/>
+🧑‍🎓 Undergraduate Student at Case Western Reserve University <br/>
+⚙️ Currently learning about VLSI Design (Digital and Analog) <br/>
 
 <!--
 **AxC1271/AxC1271** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +18,5 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+[![Andrew's GitHub stats](https://github-readme-stats.vercel.app/api?username=AxC1271)](https://github.com/anuraghazra/github-readme-stats)
