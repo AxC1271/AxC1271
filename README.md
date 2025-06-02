@@ -4,6 +4,8 @@
 🧑‍🎓 Undergraduate Student at Case Western Reserve University <br/>
 ⚙️ Currently learning about VLSI Design (Digital and Analog) <br/>
 
+Hi! I am a Case undergraduate student studying computer engineering. My interests are coding, badminton, rock climbing, and cooking!
+
 <!--
 **AxC1271/AxC1271** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
