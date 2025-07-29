@@ -3,7 +3,7 @@
 💻 Computer Engineer Documenting my Projects/Learning <br/>
 🧑‍🎓 Undergraduate Student at Case Western Reserve University <br/>
 ⚙️ Currently learning about VLSI Design (Digital and Analog) <br/>
-🏻 Skilled in RTL scripting and FPGA toolchains <br/>
+📟 Skilled in RTL scripting and FPGA toolchains <br/>
 
 Hi! I am a Case undergraduate student studying computer engineering. My interests are coding, badminton, rock climbing, and cooking!
 
