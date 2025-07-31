@@ -5,7 +5,10 @@
 ⚙️ Currently learning about VLSI Design (Digital and Analog) <br/>
 📟 Skilled in RTL scripting and FPGA toolchains <br/>
 
-Hi! I am a Case undergraduate student studying computer engineering. My interests are coding, badminton, rock climbing, and cooking!
+Hi! I am a Case undergraduate student studying computer engineering. 
+My interests are coding, badminton, rock climbing, and baking! Outside of
+academics, you can catch me skateboarding around campus, playing chess,
+doodling, or sleeping. :) 
 
 <!--
 **AxC1271/AxC1271** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
