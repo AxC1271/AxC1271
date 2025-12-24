@@ -31,7 +31,7 @@ Here are some ideas to get you started:
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=AxC1271&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=AxC1271&theme=dark&hide_border=false)<br/>
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AxC1271&theme=dark&layout=compact&cache_seconds=1800)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=AxC1271&theme=dark&layout=compact&cache_seconds=1800)
 
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
