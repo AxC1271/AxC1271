@@ -1,7 +1,7 @@
 ### Hi, I'm Andrew!
 
 💻 Computer Engineer Documenting my Projects/Learning <br/>
-🧑‍🎓 Incoming MS ECE Student at UCLA <br/>
+🧑‍🎓 Incoming MS ECE Student at University of California, Los Angeles <br/>
 ⚙️ Currently learning about VLSI Design (Digital and Analog) <br/>
 📟 Skilled in RTL scripting and FPGA toolchains <br/>
 
