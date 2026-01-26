@@ -1,8 +1,8 @@
 ### Hi, I'm Andrew!
 
 💻 Computer Engineer Documenting my Projects/Learning <br/>
-🧑‍🎓 Incoming MS ECE Student at University of California, Los Angeles <br/>
-⚙️ Currently learning about VLSI Design (Digital and Analog) <br/>
+🧑‍🎓 Incoming UCLA MS ECE Student Specializing in VLSI <br/>
+⚙️ Studying front-end digital VLSI, interested in analog VLSI <br/>
 📟 Skilled in RTL scripting and FPGA toolchains <br/>
 
 My interests are coding, badminton, rock climbing, and baking! Outside of
