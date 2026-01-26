@@ -1,11 +1,10 @@
 ### Hi, I'm Andrew!
 
 💻 Computer Engineer Documenting my Projects/Learning <br/>
-🧑‍🎓 Undergraduate Student at Case Western Reserve University <br/>
+🧑‍🎓 Incoming MS ECE Student at UCLA <br/>
 ⚙️ Currently learning about VLSI Design (Digital and Analog) <br/>
 📟 Skilled in RTL scripting and FPGA toolchains <br/>
 
-Hi! I am a Case undergraduate student studying computer engineering. 
 My interests are coding, badminton, rock climbing, and baking! Outside of
 academics, you can catch me skateboarding around campus, playing chess,
 doodling, or sleeping. :) 
