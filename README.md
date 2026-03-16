@@ -1,5 +1,6 @@
 ### Hi, I'm Andrew!
 
+🧑‍🎓 Incoming CMU MS ECE Student <br/>
 💻 Computer Engineer Documenting my Projects/Learning <br/>
 ⚙️ Studying Computer Architecture and frontend RTL design <br/>
 📟 Skilled in Verilog/SystemVerilog and FPGA toolchains <br/>
