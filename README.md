@@ -66,16 +66,12 @@ doodling, or sleeping. :)
 ---
 
 # 📊 GitHub Stats:
-![](https://github-readme-stats-chi-one-55.vercel.app/api?username=AxC1271&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=AxC1271&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats-chi-one-55.vercel.app/api/top-langs/?username=AxC1271&theme=dark&layout=pie&langs_count=6)
-
 <table>
   <tr>
-    <td halign="middle" align="center">
+    <td valign="middle" align="center">
       <img src="https://github-readme-stats-chi-one-55.vercel.app/api?username=AxC1271&theme=dark&hide_border=false&include_all_commits=false&count_private=false&show=reviews,discussions,prs_merged" width="420"/>
     </td>
-    <td halign="middle" align="center">
+    <td valign="middle" align="center">
       <img src="https://github-readme-stats-chi-one-55.vercel.app/api/top-langs/?username=AxC1271&theme=dark&layout=pie&langs_count=6" width="340"/>
     </td>
   </tr>
