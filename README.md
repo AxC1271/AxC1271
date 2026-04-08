@@ -13,13 +13,6 @@ doodling, or sleeping. :)
 
 ---
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats-chi-one-55.vercel.app/api?username=AxC1271&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=AxC1271&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats-chi-one-55.vercel.app/api/top-langs/?username=AxC1271&theme=dark&layout=pie&langs_count=6)
-
----
-
 # 🚀 Project Highlights
 
 <table>
@@ -67,5 +60,12 @@ doodling, or sleeping. :)
     </td>
   </tr>
 </table>
+
+---
+
+# 📊 GitHub Stats:
+![](https://github-readme-stats-chi-one-55.vercel.app/api?username=AxC1271&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=AxC1271&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats-chi-one-55.vercel.app/api/top-langs/?username=AxC1271&theme=dark&layout=pie&langs_count=6)
 
 ---
