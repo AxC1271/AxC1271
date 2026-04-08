@@ -32,7 +32,7 @@ doodling, or sleeping. :)
     </td>
     <td width="50%" valign="top">
       <h3>🎓 CWRU CPU — Hacker Fab</h3>
-      <p>Architected and led a team of underclassmen to design a single-cycle RISC-V processor in Verilog and tape it out via Tiny Tapeout — fully student-executed from RTL to submission.</p>
+      <p>Architected and led underclassmen design team to implement a single-cycle RISC-V processor in Verilog and tape it out via Tiny Tapeout — fully student-executed from RTL to submission.</p>
       <p>
         <img src="https://img.shields.io/badge/Verilog-%23FF6B6B.svg?style=flat-square&logoColor=white"/>
         <img src="https://img.shields.io/badge/RISC--V-%23283272.svg?style=flat-square&logo=riscv&logoColor=white"/>
@@ -44,7 +44,7 @@ doodling, or sleeping. :)
   <tr>
     <td width="50%" valign="top">
       <h3>🕹️ Tiny Pong — SkyWater 130nm Tapeout</h3>
-      <p>A Pong VGA controller taped out on SkyWater 130nm process via Tiny Tapeout. One of the few undergrad-level custom silicon tapeout projects publicly available on GitHub.</p>
+      <p>A Pong VGA controller taped out on SkyWater 130nm process via Tiny Tapeout. My first custom silicon tapeout projects publicly available on GitHub.</p>
       <p>
         <img src="https://img.shields.io/badge/Verilog-%23FF6B6B.svg?style=flat-square&logoColor=white"/>
         <img src="https://img.shields.io/badge/SkyWater-130nm-blueviolet?style=flat-square"/>
