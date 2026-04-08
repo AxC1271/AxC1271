@@ -32,11 +32,11 @@ doodling, or sleeping. :)
     </td>
     <td width="50%" valign="top">
       <h3>🎓 CWRU CPU — Hacker Fab</h3>
-      <p>Architected and led underclassmen design team to implement a single-cycle RISC-V processor in Verilog and tape it out via Tiny Tapeout — fully student-executed from RTL to submission.</p>
+      <p>Architecting and leading an underclassmen design team to implement a single-cycle RISC-V processor in Verilog and tape it out via Tiny Tapeout, targeting June 2026 submission.</p>
       <p>
         <img src="https://img.shields.io/badge/Verilog-%23FF6B6B.svg?style=flat-square&logoColor=white"/>
         <img src="https://img.shields.io/badge/RISC--V-%23283272.svg?style=flat-square&logo=riscv&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Tiny_Tapeout-Submitted-brightgreen?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Tiny_Tapeout-In_Progress-yellow?style=flat-square"/>
       </p>
       <a href="https://github.com/AxC1271/CWRU_CPU">View Repo →</a>
     </td>
