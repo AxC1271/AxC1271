@@ -72,10 +72,10 @@ doodling, or sleeping. :)
 
 <table>
   <tr>
-    <td valign="middle" align="center">
+    <td halign="middle" align="center">
       <img src="https://github-readme-stats-chi-one-55.vercel.app/api?username=AxC1271&theme=dark&hide_border=false&include_all_commits=false&count_private=false&show=reviews,discussions,prs_merged" width="420"/>
     </td>
-    <td valign="middle" align="center">
+    <td halign="middle" align="center">
       <img src="https://github-readme-stats-chi-one-55.vercel.app/api/top-langs/?username=AxC1271&theme=dark&layout=pie&langs_count=6" width="340"/>
     </td>
   </tr>
