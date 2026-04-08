@@ -3,6 +3,7 @@
 ⚙️ Studying Computer Architecture and frontend RTL design <br/>
 📟 Skilled in Verilog/SystemVerilog and FPGA toolchains <br/>
 🎓 MS ECE student at Carnegie Mellon University <br/>
+🧑‍🎓 Case Western Reserve University 2026 Graduate <br/>
 
 ### Fun Facts about Me:
 
