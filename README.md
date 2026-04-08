@@ -22,7 +22,7 @@ doodling, or sleeping. :)
   <tr>
     <td width="50%" valign="top">
       <h3>🔬 RISC-V SoC v2</h3>
-      <p>5-stage pipelined RISC-V processor with split L1 caches (direct-mapped I-cache, 2-way set-associative D-cache) and a tentative AXI-lite bus for UART/SPI/I2C peripherals. Built from scratch and validated in SystemVerilog.</p>
+      <p>5-stage pipelined RISC-V processor with split L1 caches (direct-mapped I-cache, 2-way set-associative D-cache). Built from scratch and validated in SystemVerilog.</p>
       <p>
         <img src="https://img.shields.io/badge/SystemVerilog-%23FF6B6B.svg?style=flat-square&logoColor=white"/>
         <img src="https://img.shields.io/badge/RISC--V-%23283272.svg?style=flat-square&logo=riscv&logoColor=white"/>
