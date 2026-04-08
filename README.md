@@ -4,6 +4,8 @@
 📟 Skilled in Verilog/SystemVerilog and FPGA toolchains <br/>
 🎓 MS ECE student at Carnegie Mellon University <br/>
 
+Fun Facts about Me:
+
 My interests are coding, badminton, rock climbing, and baking! Outside of
 academics, you can catch me skateboarding around campus, playing chess,
 doodling, or sleeping. :)
