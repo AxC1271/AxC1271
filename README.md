@@ -70,4 +70,15 @@ doodling, or sleeping. :)
 ![](https://nirzak-streak-stats.vercel.app/?user=AxC1271&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats-chi-one-55.vercel.app/api/top-langs/?username=AxC1271&theme=dark&layout=pie&langs_count=6)
 
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats-chi-one-55.vercel.app/api?username=AxC1271&theme=dark&hide_border=false&include_all_commits=false&count_private=false" width="400"/>
+    </td>
+    <td>
+      <img src="https://github-readme-stats-chi-one-55.vercel.app/api/top-langs/?username=AxC1271&theme=dark&layout=pie&langs_count=6" width="300"/>
+    </td>
+  </tr>
+</table>
+
 ---
