@@ -15,3 +15,51 @@ doodling, or sleeping. :)
 ![](https://github-readme-stats-chi-one-55.vercel.app/api?username=AxC1271&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=AxC1271&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats-chi-one-55.vercel.app/api/top-langs/?username=AxC1271&theme=dark&layout=pie&langs_count=6)
+
+# 🚀 Projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔬 RISC-V SoC v2</h3>
+      <p>5-stage pipelined RISC-V processor with split L1 caches (direct-mapped I$, 2-way set-associative D$) and a gshare + BTB branch predictor. Built from scratch in SystemVerilog.</p>
+      <p>
+        <img src="https://img.shields.io/badge/SystemVerilog-%23FF6B6B.svg?style=flat-square&logoColor=white"/>
+        <img src="https://img.shields.io/badge/RISC--V-%23283272.svg?style=flat-square&logo=riscv&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Status-In_Progress-yellow?style=flat-square"/>
+      </p>
+      <a href="https://github.com/AxC1271/RISCV-v2">View Repo →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎓 CWRU CPU — Hacker Fab</h3>
+      <p>Architected and led a team of underclassmen to design a single-cycle RISC-V processor in Verilog and tape it out via Tiny Tapeout — fully student-executed from RTL to submission.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Verilog-%23FF6B6B.svg?style=flat-square&logoColor=white"/>
+        <img src="https://img.shields.io/badge/RISC--V-%23283272.svg?style=flat-square&logo=riscv&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Tiny_Tapeout-Submitted-brightgreen?style=flat-square"/>
+      </p>
+      <a href="https://github.com/AxC1271/CWRU_CPU">View Repo →</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🕹️ Tiny Pong — SkyWater 130nm Tapeout</h3>
+      <p>A Pong VGA controller taped out on SkyWater 130nm process via Tiny Tapeout. One of the few undergrad-level custom silicon tapeout projects publicly available on GitHub.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Verilog-%23FF6B6B.svg?style=flat-square&logoColor=white"/>
+        <img src="https://img.shields.io/badge/SkyWater-130nm-blueviolet?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Tiny_Tapeout-Submitted-brightgreen?style=flat-square"/>
+      </p>
+      <a href="https://github.com/AxC1271/Tiny-Pong">View Repo →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚡ PCB Design & Magic VLSI</h3>
+      <p>Explored physical design through PCB layout and Magic VLSI — bridging the gap between RTL and silicon through hands-on tooling at the transistor level.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Magic_VLSI-Layout-orange?style=flat-square"/>
+        <img src="https://img.shields.io/badge/PCB-Design-blue?style=flat-square"/>
+        <img src="https://img.shields.io/badge/SkyWater-130nm-blueviolet?style=flat-square"/>
+      </p>
+    </td>
+  </tr>
+</table>
