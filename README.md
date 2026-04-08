@@ -15,7 +15,7 @@ doodling, or sleeping. :)
 
 ---
 
-# 🚀 Project Highlights
+# 🚀 Project Highlights:
 
 <table>
   <tr>
