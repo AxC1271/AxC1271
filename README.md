@@ -29,7 +29,7 @@ doodling, or sleeping. :)
       <a href="https://github.com/AxC1271/RISCV-v2">View Repo →</a>
     </td>
     <td width="50%" valign="top">
-      <h3>🎓 CWRU CPU — Hacker Fab (IHP 130nm Tpaeout)</h3>
+      <h3>🎓 CWRU CPU — Hacker Fab (IHP 130nm Tapeout)</h3>
       <p>Architecting and leading an underclassmen design team to implement a single-cycle RISC-V processor in Verilog and tape it out via Tiny Tapeout, targeting June 2026 submission.</p>
       <p>
         <img src="https://img.shields.io/badge/Verilog-%23FF6B6B.svg?style=flat-square&logoColor=white"/>
@@ -51,13 +51,15 @@ doodling, or sleeping. :)
       <a href="https://github.com/AxC1271/Tiny-Pong">View Repo →</a>
     </td>
     <td width="50%" valign="top">
-      <h3>⚡ PCB Design & Magic VLSI</h3>
-      <p>Explored physical design through PCB layout and Magic VLSI — bridging the gap between RTL and silicon through hands-on tooling at the transistor level.</p>
+      <h3>🔧 STM32 Dev Board</h3>
+      <p>Designed, laid out, and manufactured a custom STM32F103 development board in KiCad 7.0 — from schematic to JLCPCB fabrication. Validated with a VHDL UART receiver on a Basys3 FPGA.</p>
       <p>
-        <img src="https://img.shields.io/badge/Magic_VLSI-Layout-orange?style=flat-square"/>
-        <img src="https://img.shields.io/badge/PCB-Design-blue?style=flat-square"/>
-        <img src="https://img.shields.io/badge/SkyWater-130nm-blueviolet?style=flat-square"/>
+        <img src="https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logoColor=white"/>
+        <img src="https://img.shields.io/badge/VHDL-%23007396.svg?style=flat-square&logoColor=white"/>
+        <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square"/>
       </p>
+      <a href="https://github.com/AxC1271/STM32-DevBoard">View Repo →</a>
     </td>
   </tr>
   <tr>
