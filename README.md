@@ -33,7 +33,7 @@ doodling, or sleeping. :)
     </td>
     <td width="50%" valign="top">
       <h3>🎓 CWRU CPU — Hacker Fab</h3>
-      <p>Architected and led an underclassmen design team to implement a single-cycle RISC-V processor in Verilog and tape it out via Tiny Tapeout on the IHP 130nm node, targeting June 2026 submission.</p>
+      <p>Architected/led an underclassmen design team to implement a single-cycle RISC-V processor in Verilog and tape it out via Tiny Tapeout, targeting June 2026 submission.</p>
       <p>
         <img src="https://img.shields.io/badge/Verilog-%23FF6B6B.svg?style=flat-square&logoColor=white"/>
         <img src="https://img.shields.io/badge/RISC--V-%23283272.svg?style=flat-square&logo=riscv&logoColor=white"/>
