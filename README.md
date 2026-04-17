@@ -1,7 +1,7 @@
 ### Hi, I'm Andrew!
 💻 Computer Engineer Documenting my Projects/Learning <br/>
 🔬 Design Lead @ <a href="https://asicwru.netlify.app" target="_blank">ASICWRU — CWRU CHIPS ASIC Design</a><br/>
-⚙️ Specializing Computer Architecture and Hardware/Software Interfaces <br/>
+⚙️ Specializing in Computer Architecture and Hardware/Software Interfaces <br/>
 📟 Skilled in Verilog/SystemVerilog and FPGA prototyping <br/>
 
 🧬 See the ASICs I've taped out: <a href="https://axc1271.github.io/CWRU_CPU/" target="_blank">CWRU CPU</a> · <a href="https://axc1271.github.io/TinyPong/" target="_blank">Tiny Pong</a>
