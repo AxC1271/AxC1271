@@ -51,7 +51,8 @@ doodling, or sleeping. :)
         <img src="https://img.shields.io/badge/SkyWater-130nm-blueviolet?style=flat-square"/>
         <img src="https://img.shields.io/badge/Tiny_Tapeout-Submitted-brightgreen?style=flat-square"/>
       </p>
-      <a href="https://github.com/AxC1271/Tiny-Pong">View Repo →</a>
+      <a href="https://github.com/AxC1271/Tiny-Pong" target="_blank">View Repo →</a> &nbsp;|&nbsp;
+      <a href="https://axc1271.github.io/TinyPong/" target="_blank">GDS Viewer →</a>
     </td>
     <td width="50%" valign="top">
       <h3>🔧 STM32 Dev Board</h3>
