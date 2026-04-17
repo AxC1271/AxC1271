@@ -81,6 +81,7 @@ doodling, or sleeping. :)
         <img src="https://img.shields.io/badge/Status-In_Progress-yellow?style=flat-square"/>
       </p>
       <a href="https://github.com/AxC1271/ASICWRU-Handbook">View Repo →</a>
+      <a href="https://asicwru.netlify.app">View Website →</a>
     </td>
   </tr>
 </table>
