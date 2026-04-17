@@ -2,7 +2,7 @@
 💻 Computer Engineer Documenting my Projects/Learning <br/>
 ⚙️ Studying Computer Architecture and RTL Design <br/>
 📟 Skilled in Verilog/SystemVerilog and FPGA toolchains <br/>
-🔬 Design Lead @ <a href="https://asicwru.netlify.app">ASICWRU — CWRU CHIPS ASIC Design</a>
+🔬 Design Lead @ <a href="https://asicwru.netlify.app" target="_blank">ASICWRU</a> — <a href="https://axc1271.github.io/CWRU_CPU/" target="_blank">view the GDS →</a>
 
 ### Fun Facts about Me:
 
