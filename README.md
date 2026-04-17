@@ -2,7 +2,6 @@
 💻 Computer Engineer Documenting my Projects/Learning <br/>
 ⚙️ Studying Computer Architecture and RTL Design <br/>
 📟 Skilled in Verilog/SystemVerilog and FPGA toolchains <br/>
-🧑‍🎓 Carnegie Mellon University MS ECE Student <br/> 
 
 ### Fun Facts about Me:
 
