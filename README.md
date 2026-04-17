@@ -37,7 +37,9 @@ doodling, or sleeping. :)
         <img src="https://img.shields.io/badge/RISC--V-%23283272.svg?style=flat-square&logo=riscv&logoColor=white"/>
         <img src="https://img.shields.io/badge/Tiny_Tapeout-Complete-blue?style=flat-square"/>
       </p>
-      <a href="https://github.com/AxC1271/CWRU_CPU">View Repo →</a>
+      <a href="https://github.com/AxC1271/CWRU_CPU" target="_blank">View Repo →</a> &nbsp;|&nbsp;
+      <a href="https://asicwru.netlify.app" target="_blank">Visit Site →</a> &nbsp;|&nbsp;
+      <a href="https://axc1271.github.io/CWRU_CPU/" target="_blank">GDS Viewer →</a>
     </td>
   </tr>
   <tr>
