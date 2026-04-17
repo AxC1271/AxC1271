@@ -35,7 +35,7 @@ doodling, or sleeping. :)
       <p>
         <img src="https://img.shields.io/badge/Verilog-%23FF6B6B.svg?style=flat-square&logoColor=white"/>
         <img src="https://img.shields.io/badge/RISC--V-%23283272.svg?style=flat-square&logo=riscv&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Tiny_Tapeout-In_Progress-yellow?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Tiny_Tapeout-Complete-blue?style=flat-square"/>
       </p>
       <a href="https://github.com/AxC1271/CWRU_CPU">View Repo →</a>
     </td>
@@ -59,6 +59,27 @@ doodling, or sleeping. :)
         <img src="https://img.shields.io/badge/PCB-Design-blue?style=flat-square"/>
         <img src="https://img.shields.io/badge/SkyWater-130nm-blueviolet?style=flat-square"/>
       </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🖥️ C-Systems</h3>
+      <p>A from-scratch C systems programming curriculum — shells, memory allocators, kernels, and device drivers — built as the software foundation underpinning the RISC-V superscalar SoC roadmap.</p>
+      <p>
+        <img src="https://img.shields.io/badge/c-%2300599C.svg?style=flat-square&logo=c&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Status-In_Progress-yellow?style=flat-square"/>
+      </p>
+      <a href="https://github.com/AxC1271/C-Systems">View Repo →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📖 ASICWRU Handbook</h3>
+      <p>A comprehensive, openly written guide to digital systems design — from logic gates to silicon. Built for CWRU students and anyone curious about hardware design, with the goal of making ASIC education accessible.</p>
+      <p>
+        <img src="https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54"/>
+        <img src="https://img.shields.io/badge/Verilog-%23FF6B6B.svg?style=flat-square&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Status-In_Progress-yellow?style=flat-square"/>
+      </p>
+      <a href="https://github.com/AxC1271/ASICWRU-Handbook">View Repo →</a>
     </td>
   </tr>
 </table>
