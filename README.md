@@ -2,7 +2,7 @@
 💻 Computer Engineer Documenting my Projects/Learning <br/>
 🔬 Design Lead @ <a href="https://asicwru.netlify.app" target="_blank">ASICWRU — CWRU CHIPS ASIC Design</a><br/>
 
-🧬 See the ASICs I've taped out: <a href="https://axc1271.github.io/CWRU_CPU/" target="_blank">CWRU CPU</a> · <a href="https://axc1271.github.io/TinyPong/" target="_blank">Tiny Pong</a>
+🧬 See the ASICs I've taped out: <a href="https://gds-viewer.tinytapeout.com/?model=https://john-paul-sm.github.io/ASICWRU_SimpleCounter/tinytapeout.oas&pdk=gf180mcuD" target="_blank">CWRU CPU</a> · <a href="https://axc1271.github.io/TinyPong/" target="_blank">Tiny Pong</a>
 
 ### Fun Facts about Me:
 
