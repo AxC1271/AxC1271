@@ -36,7 +36,7 @@ skateboarding around campus, playing chess, doing handstand push-ups, reading, o
         <img src="https://img.shields.io/badge/RISC--V-%23283272.svg?style=flat-square&logo=riscv&logoColor=white"/>
         <img src="https://img.shields.io/badge/Tiny_Tapeout-Complete-blue?style=flat-square"/>
       </p>
-      <a href="https://github.com/AxC1271/CWRU_CPU" target="_blank">View Repo →</a> &nbsp;|&nbsp;
+      <a href="https://github.com/john-paul-sm/ASICWRU_SimpleCounter" target="_blank">View Repo →</a> &nbsp;|&nbsp;
       <a href="https://gds-viewer.tinytapeout.com/?model=https://john-paul-sm.github.io/ASICWRU_SimpleCounter/tinytapeout.oas&pdk=gf180mcuD" target="_blank">GDS Viewer →</a>
     </td>
   </tr>
