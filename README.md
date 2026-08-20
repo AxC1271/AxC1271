@@ -24,7 +24,7 @@ skateboarding around campus, playing chess, doing handstand push-ups, reading, o
       <p>
         <img src="https://img.shields.io/badge/SystemVerilog-%23FF6B6B.svg?style=flat-square&logoColor=white"/>
         <img src="https://img.shields.io/badge/RISC--V-%23283272.svg?style=flat-square&logo=riscv&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Status-In_Progress-yellow?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square"/>
       </p>
       <a href="https://github.com/AxC1271/RISCV-v2">View Repo →</a>
     </td>
