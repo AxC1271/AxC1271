@@ -14,14 +14,45 @@ Interested in needle-felting, poetry, music, and baking. Outside of work: skateb
 
 ## Tech Stack
 
+**Hardware Languages & Design**
+
 ![RISC-V](https://img.shields.io/badge/RISC--V-%23283272.svg?style=flat-square&logo=riscv&logoColor=white)
 ![SystemVerilog](https://img.shields.io/badge/SystemVerilog-%23FF6B6B.svg?style=flat-square)
+![Verilog](https://img.shields.io/badge/Verilog-%23FF6B6B.svg?style=flat-square)
 ![VHDL](https://img.shields.io/badge/VHDL-%23007396.svg?style=flat-square)
+
+**EDA & Verification Tools**
+
+![Vivado](https://img.shields.io/badge/Vivado-E01F27?style=flat-square)
+![Yosys](https://img.shields.io/badge/Yosys-4B0082?style=flat-square)
+![OpenSTA](https://img.shields.io/badge/OpenSTA-1E90FF?style=flat-square)
+![SymbiYosys](https://img.shields.io/badge/SymbiYosys-4B0082?style=flat-square)
+![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=flat-square)
+![Icarus Verilog](https://img.shields.io/badge/Icarus_Verilog-FF6B6B?style=flat-square)
+
+**Programming Languages**
+
 ![C](https://img.shields.io/badge/C-%2300599C.svg?style=flat-square&logo=c&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![Assembly](https://img.shields.io/badge/Assembly-525252?style=flat-square)
+
+**Platforms & Microcontrollers**
+
+![ARM](https://img.shields.io/badge/ARM-0091BD?style=flat-square&logo=arm&logoColor=white)
+![Intel](https://img.shields.io/badge/Intel-%230068B5.svg?style=flat-square&logo=intel&logoColor=white)
+![Xilinx](https://img.shields.io/badge/Xilinx-E01F27?style=flat-square)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=flat-square&logo=raspberrypi&logoColor=white)
+![STM32](https://img.shields.io/badge/STM32-03234B?style=flat-square)
+![FPGA](https://img.shields.io/badge/FPGA-FF6B6B?style=flat-square)
+
+**Development Tools & OS**
+
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Vivado](https://img.shields.io/badge/Vivado-E01F27?style=flat-square)
-![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=flat-square)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
+![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white)
 
 ---
 
