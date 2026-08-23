@@ -57,6 +57,8 @@ Interested in needle-felting, poetry, music, and baking. Outside of work: skateb
 ---
 
 ## Project Highlights
+
+| | |
 |---|---|
 | **RISC-V SoC v3 (In Progress)** | 2-way superscalar in-order processor with Gshare branch predictor. Explores instruction-level parallelism, hazard detection, and branch prediction accuracy across bimodal and global-history designs. SystemVerilog. [View Repo →](https://github.com/AxC1271/RISCV-v3) |
 | **RISC-V SoC v2** | 5-stage pipelined RV32I processor with split L1 caches (direct-mapped I-cache, 2-way D-cache). Complete RTL implementation, STA analysis (33 MHz post-synth, 85 MHz FPGA), formal verification. SystemVerilog. [View Repo →](https://github.com/AxC1271/RISCV-v2) |
