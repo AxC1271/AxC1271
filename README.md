@@ -65,7 +65,6 @@ Interested in needle-felting, poetry, music, and baking. Outside of work: skateb
 | **CWRU CPU — Hacker Fab** | Led underclassmen design team to implement single-cycle RISC-V processor and tape out via Tiny Tapeout (June 2026). Verilog, RISC-V. [View Repo →](https://github.com/john-paul-sm/ASICWRU_SimpleCounter) · [GDS Viewer →](https://gds-viewer.tinytapeout.com/?model=https://john-paul-sm.github.io/ASICWRU_SimpleCounter/tinytapeout.oas&pdk=gf180mcuD) |
 | **Tiny Pong — SkyWater 130nm** | Pong VGA controller taped out on SkyWater 130nm via Tiny Tapeout. First custom silicon project publicly available. Verilog. [View Repo →](https://github.com/AxC1271/Tiny-Pong) · [GDS Viewer →](https://axc1271.github.io/TinyPong/) |
 | **STM32 Dev Board** | Custom STM32F103 development board designed in KiCad 7.0, fabricated at JLCPCB. VHDL UART receiver validated on Basys3 FPGA. [View Repo →](https://github.com/AxC1271/STM32-DevBoard) |
-| **C-Systems** | From-scratch C systems programming curriculum (shells, memory allocators, kernels, device drivers). Software foundation for RISC-V superscalar roadmap. [View Repo →](https://github.com/AxC1271/C-Systems) |
 | **ASICWRU Handbook** | Comprehensive open guide to digital systems design, from logic gates to silicon. Built for CWRU students and hardware design enthusiasts. Python, Verilog. [View Repo →](https://github.com/AxC1271/ASICWRU-Handbook) |
 
 ---
