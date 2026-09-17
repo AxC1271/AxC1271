@@ -18,7 +18,7 @@ Previously Design Lead @ [ASICWRU — CWRU CHIPS ASIC Design](https://asicwru.ne
 * Comparing predictor accuracy, IPC, and implementation complexity across application workloads
 * Moving toward synthesis, timing analysis, and physical implementation
 
-### mini-NPU — INT8 Systolic Accelerator · Early Development
+### [mini-NPU — INT8 Systolic Accelerator · Early Development](https://github.com/AxC1271/mini-NPU)
 
 Building a custom INT8 neural processing unit in SystemVerilog around a planned **8×8 systolic MAC array** for matrix-heavy inference workloads.
 
