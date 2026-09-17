@@ -2,7 +2,7 @@
 
 **MS ECE @ Carnegie Mellon | Computer Architecture · RTL Design · ASIC/FPGA**
 
-I build processors and digital hardware from RTL through implementation. Currently exploring superscalar execution, branch prediction, and the performance/complexity tradeoffs behind microarchitectural design.
+I build processors and digital hardware from microarchitecture through RTL and implementation. Currently working on a 2-way superscalar RISC-V processor and an INT8 neural-network accelerator.
 
 Previously Design Lead @ [ASICWRU — CWRU CHIPS ASIC Design](https://asicwru.netlify.app).
 
@@ -10,18 +10,25 @@ Previously Design Lead @ [ASICWRU — CWRU CHIPS ASIC Design](https://asicwru.ne
 
 ### [RISC-V v3 — 2-Way Superscalar RV32I](https://github.com/AxC1271/RISCV-v3) · In Progress
 
-2-way superscalar in-order processor written in SystemVerilog.
+2-way superscalar in-order processor exploring instruction-level parallelism and branch prediction.
 
-* 2-wide fetch/dispatch with dual integer ALUs and 4R/2W register file
-* Multi-lane forwarding, dependency detection, structural hazard handling, and instruction replay
+* 2-wide fetch/dispatch, dual ALUs, 4R/2W register file, multi-lane forwarding, and instruction replay
 * Always Not-Taken, Bimodal, and Gshare branch prediction
-* ~**1.85 IPC** on independent instruction streams, approaching the 2.0 IPC theoretical maximum
-* Benchmarking predictor accuracy and IPC across Fibonacci, Binary Search, Insertion Sort, GCD, and String Search
-* Evaluating predictor performance vs. implementation complexity for synthesis and timing closure
+* ~**1.85 IPC** on independent instruction streams, approaching the theoretical 2.0 IPC maximum
+* Comparing predictor accuracy, IPC, and implementation complexity across application workloads
+* Moving toward synthesis, timing analysis, and physical implementation
+
+### mini-NPU — INT8 Systolic Accelerator · Early Development
+
+Building a custom INT8 neural processing unit in SystemVerilog around a planned **8×8 systolic MAC array** for matrix-heavy inference workloads.
+
+The current work is focused on the parameterized INT8/INT32 processing element and the dataflow required to scale it into a systolic array. The project will explore array utilization, tiling, data reuse, memory bandwidth, and the gap between theoretical and sustained compute throughput.
+
+**Target:** 64 MACs/cycle · INT8 operands · INT32 accumulation · SkyWater 130nm
 
 ### [RISC-V v2 — 5-Stage Pipelined RV32I](https://github.com/AxC1271/RISCV-v2)
 
-5-stage in-order RISC-V processor with forwarding, hazard detection, and split L1 caches.
+5-stage in-order processor with forwarding, hazard detection, and split L1 caches.
 
 **58.8 MHz post-synthesis · 85 MHz FPGA · 0.64–0.76 IPC**
 
