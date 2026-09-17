@@ -1,70 +1,54 @@
 # Andrew Chen
 
-Computer Engineer | Hardware Design | RISC-V Architecture
+**MS ECE @ Carnegie Mellon | Computer Architecture · RTL Design · ASIC/FPGA**
 
-Design Lead @ [ASICWRU — CWRU CHIPS ASIC Design](https://asicwru.netlify.app)
+I build processors and digital hardware from RTL through implementation. Currently exploring superscalar execution, branch prediction, and the performance/complexity tradeoffs behind microarchitectural design.
 
-View my taped-out ASICs: [CWRU CPU](https://gds-viewer.tinytapeout.com/?model=https://john-paul-sm.github.io/ASICWRU_SimpleCounter/tinytapeout.oas&pdk=gf180mcuD) · [Tiny Pong](https://axc1271.github.io/TinyPong/)
+Previously Design Lead @ [ASICWRU — CWRU CHIPS ASIC Design](https://asicwru.netlify.app).
 
-## About Me
+## Featured Projects
 
-Interested in needle-felting, poetry, music, and baking. Outside of work: skateboarding, chess, handstand push-ups, reading, and sleeping.
+### [RISC-V v3 — 2-Way Superscalar RV32I](https://github.com/AxC1271/RISCV-v3) · In Progress
 
----
+2-way superscalar in-order processor written in SystemVerilog.
 
-## Tech Stack
+* 2-wide fetch/dispatch with dual integer ALUs and 4R/2W register file
+* Multi-lane forwarding, dependency detection, structural hazard handling, and instruction replay
+* Always Not-Taken, Bimodal, and Gshare branch prediction
+* ~**1.85 IPC** on independent instruction streams, approaching the 2.0 IPC theoretical maximum
+* Benchmarking predictor accuracy and IPC across Fibonacci, Binary Search, Insertion Sort, GCD, and String Search
+* Evaluating predictor performance vs. implementation complexity for synthesis and timing closure
 
-**Hardware Languages & Design**
+### [RISC-V v2 — 5-Stage Pipelined RV32I](https://github.com/AxC1271/RISCV-v2)
 
-![RISC-V](https://img.shields.io/badge/RISC--V-%23283272.svg?style=flat-square&logo=riscv&logoColor=white)
-![SystemVerilog](https://img.shields.io/badge/SystemVerilog-%23FF6B6B.svg?style=flat-square)
-![Verilog](https://img.shields.io/badge/Verilog-%23FF6B6B.svg?style=flat-square)
-![VHDL](https://img.shields.io/badge/VHDL-%23007396.svg?style=flat-square)
+5-stage in-order RISC-V processor with forwarding, hazard detection, and split L1 caches.
 
-**EDA & Verification Tools**
+**58.8 MHz post-synthesis · 85 MHz FPGA · 0.64–0.76 IPC**
 
-![Vivado](https://img.shields.io/badge/Vivado-E01F27?style=flat-square)
-![Yosys](https://img.shields.io/badge/Yosys-4B0082?style=flat-square)
-![OpenSTA](https://img.shields.io/badge/OpenSTA-1E90FF?style=flat-square)
-![SymbiYosys](https://img.shields.io/badge/SymbiYosys-4B0082?style=flat-square)
-![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=flat-square)
-![Icarus Verilog](https://img.shields.io/badge/Icarus_Verilog-FF6B6B?style=flat-square)
+Direct-mapped I-cache and 2-way set-associative write-back D-cache, with synthesis and static timing analysis targeting SkyWater 130nm.
 
-**Programming Languages**
+### [CWRU CPU — RISC-V ASIC](https://github.com/john-paul-sm/ASICWRU_SimpleCounter)
 
-![C](https://img.shields.io/badge/C-%2300599C.svg?style=flat-square&logo=c&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![Assembly](https://img.shields.io/badge/Assembly-525252?style=flat-square)
+Led an undergraduate design team through RTL development and tapeout of a single-cycle RISC-V processor via Tiny Tapeout.
 
-**Platforms & Microcontrollers**
+[View GDS →](https://gds-viewer.tinytapeout.com/?model=https://john-paul-sm.github.io/ASICWRU_SimpleCounter/tinytapeout.oas&pdk=gf180mcuD)
 
-![ARM](https://img.shields.io/badge/ARM-0091BD?style=flat-square&logo=arm&logoColor=white)
-![Intel](https://img.shields.io/badge/Intel-%230068B5.svg?style=flat-square&logo=intel&logoColor=white)
-![Xilinx](https://img.shields.io/badge/Xilinx-E01F27?style=flat-square)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=flat-square&logo=raspberrypi&logoColor=white)
-![STM32](https://img.shields.io/badge/STM32-03234B?style=flat-square)
-![FPGA](https://img.shields.io/badge/FPGA-FF6B6B?style=flat-square)
+### [Tiny Pong — SkyWater 130nm](https://github.com/AxC1271/Tiny-Pong)
 
-**Development Tools & OS**
+VGA Pong controller implemented in Verilog and taped out on SkyWater 130nm through Tiny Tapeout.
 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
-![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white)
+[View GDS →](https://axc1271.github.io/TinyPong/)
 
----
+### [STM32 Development Board](https://github.com/AxC1271/STM32-DevBoard)
 
-## Project Highlights
+Custom STM32F103 development board designed in KiCad and fabricated at JLCPCB, with FPGA-based UART validation.
 
-| | |
-|---|---|
-| **RISC-V SoC v3 (In Progress)** | 2-way superscalar in-order processor with Gshare branch predictor. Explores instruction-level parallelism, hazard detection, and branch prediction accuracy across bimodal and global-history designs. SystemVerilog. [View Repo →](https://github.com/AxC1271/RISCV-v3) |
-| **RISC-V SoC v2** | 5-stage pipelined RV32I processor with split L1 caches (direct-mapped I-cache, 2-way D-cache). Complete RTL implementation and STA analysis (58.8 MHz post-synth, 85 MHz FPGA). SystemVerilog. [View Repo →](https://github.com/AxC1271/RISCV-v2) |
-| **CWRU CPU — Hacker Fab** | Led underclassmen design team to implement single-cycle RISC-V processor and tape out via Tiny Tapeout (June 2026). Verilog, RISC-V. [View Repo →](https://github.com/john-paul-sm/ASICWRU_SimpleCounter) · [GDS Viewer →](https://gds-viewer.tinytapeout.com/?model=https://john-paul-sm.github.io/ASICWRU_SimpleCounter/tinytapeout.oas&pdk=gf180mcuD) |
-| **Tiny Pong — SkyWater 130nm** | Pong VGA controller taped out on SkyWater 130nm via Tiny Tapeout. First custom silicon project publicly available. Verilog. [View Repo →](https://github.com/AxC1271/Tiny-Pong) · [GDS Viewer →](https://axc1271.github.io/TinyPong/) |
-| **STM32 Dev Board** | Custom STM32F103 development board designed in KiCad 7.0, fabricated at JLCPCB. VHDL UART receiver validated on Basys3 FPGA. [View Repo →](https://github.com/AxC1271/STM32-DevBoard) |
-| **ASICWRU Handbook** | Comprehensive open guide to digital systems design, from logic gates to silicon. Built for CWRU students and hardware design enthusiasts. Python, Verilog. [View Repo →](https://github.com/AxC1271/ASICWRU-Handbook) |
+## Tools
 
----
+**RTL:** SystemVerilog · Verilog · VHDL · RISC-V Assembly
+**EDA:** Vivado · Yosys · OpenSTA · SymbiYosys · Icarus Verilog · KiCad
+**Software:** C · Python · Bash · Git · Linux · Docker
+
+## Outside Hardware
+
+Needle felting, poetry, music, baking, skateboarding, chess, reading, and handstand push-ups.
