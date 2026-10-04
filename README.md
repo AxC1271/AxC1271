@@ -97,7 +97,7 @@ VGA Pong controller implemented in Verilog and taped out through Tiny Tapeout.
 
 <p align="center">
   <a href="https://github.com/AxC1271/Tiny-Pong">
-    <img src="assets/tiny_pong.png" alt="PCB Traces" width="700">
+    <img src="assets/tiny_pong.png" alt="PCB Traces" width="840">
   </a>
 </p>
 
@@ -109,7 +109,7 @@ Custom STM32F103 development board designed in KiCad and fabricated at JLCPCB, w
 
 <p align="center">
   <a href="https://github.com/AxC1271/STM32-DevBoard">
-    <img src="assets/stm32_trace.png" alt="PCB Traces" width="700">
+    <img src="assets/stm32_trace.png" alt="PCB Traces" width="840">
   </a>
 </p>
 
