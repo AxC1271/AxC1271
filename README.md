@@ -22,7 +22,7 @@ Current work includes:
 * Speculative execution and branch recovery
 * Multi-level cache hierarchy and memory-system work
 * Exploring cache coherence and more scalable SoC architecture
-* * RV32IM execution support
+* RV32IM execution support
 
 The goal is not just to make a wider processor, but to understand where instruction-level parallelism is actually lost and what hardware is required to recover it.
 
