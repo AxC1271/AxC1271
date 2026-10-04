@@ -91,12 +91,12 @@ This project taught me most of the pipeline, cache, timing, and control infrastr
 
 ## Earlier Hardware
 
-### [CWRU CPU — RISC-V ASIC](https://github.com/john-paul-sm/ASICWRU_SimpleCounter)
+### [CWRU CPU — RISC-V ASIC](https://github.com/AxC1271/CWRU_CPU/)
 
-Led an undergraduate ASIC design team through RTL development and tapeout of a small single-cycle RISC-V processor through Tiny Tapeout.
+Led an undergraduate ASIC design team through RTL development and tapeout of a small single-cycle RISC-V processor through Tiny Tapeout. Runs a simple Fibonacci sequence, tested on a Basys3 FPGA.
 
 <p align="center">
-  <a href="https://github.com/john-paul-sm/ASICWRU_SimpleCounter">
+  <a href="https://github.com/AxC1271/CWRU_CPU/">
     <img src="assets/cwru_cpu.png" alt="Club's First Tapeout!" width="840">
   </a>
 </p>
