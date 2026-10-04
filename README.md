@@ -10,7 +10,7 @@ Previously Design Lead @ [ASICWRU — CWRU CHIPS ASIC Design](https://asicwru.ne
 
 ## Featured Projects
 
-### [RISC-V v4 — 2-Way Superscalar RV32IM OoO Processor](YOUR_V4_LINK) · In Progress
+### [RISC-V v4 — 2-Way Superscalar RV32IM OoO Processor](https://github.com/AxC1271/RISCV-v4) · In Progress
 
 Building an out-of-order superscalar RISC-V processor to explore the bottlenecks that remain after widening an in-order machine.
 
@@ -41,6 +41,16 @@ The goal is not just to make a wider processor, but to understand where instruct
 * ~**18% IPC improvement** on Matrix Multiply and ~**32%** on Bubble Sort versus my previous scalar core
 * GShare reduced String Search branch mispredictions by ~**37%** compared with Bimodal
 * Synthesized, placed, routed, and exported to GDS targeting SkyWater 130nm
+
+<p align="center">
+  <a href="https://github.com/AxC1271/RISCV-v3">
+    <img src="assets/rv32i_v3_microarchitecture_rectangles.png" alt="RV32I v3 physical microarchitecture" width="420">
+  </a>
+  <a href="https://github.com/AxC1271/RISCV-v3">
+    <img src="assets/rv32i_v3_gds_die_raw.png" alt="RV32I v3 GDSII die" width="420">
+  </a>
+</p>
+<p align="center"><sub>Final Sky130 layout of the 2-way superscalar core (OpenROAD, RTL to GDSII). Left: dominant physical neighborhoods inferred from placed cells. Right: full die.</sub></p>
 
 ---
 
