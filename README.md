@@ -43,8 +43,8 @@ The goal is not just to make a wider processor, but to understand where instruct
 * Synthesized, placed, routed, and exported to GDS targeting SkyWater 130nm
 
 <p align="center">
-  <a href="https://github.com/AxC1271/RISCV-v3"><img src="assets/rv32i_v3_microarchitecture_rectangles.png" alt="RV32I v3 physical microarchitecture" width="420" height="420"></a>
-  <a href="https://github.com/AxC1271/RISCV-v3"><img src="assets/rv32i_v3_raw.png" alt="RV32I v3 GDSII die" width="420" height="420"></a>
+  <a href="https://github.com/AxC1271/RISCV-v3"><img src="assets/rv32i_v3_microarchitecture_rectangles.png" alt="RV32I v3 physical microarchitecture" width="400" height="400"></a>
+  <a href="https://github.com/AxC1271/RISCV-v3"><img src="assets/rv32i_v3_raw.png" alt="RV32I v3 GDSII die" width="400" height="400"></a>
 </p>
 
 The fully synthesized die is on the right, whereas the left image shows the general locations of the different components of the superscalar core using the `.def` and the `.odb` files.
@@ -80,6 +80,12 @@ My previous scalar processor and the design that became the foundation for the l
 * FPGA implementation at **85 MHz**
 * SkyWater 130nm synthesis / STA at **58.8 MHz**
 * **0.64–0.76 IPC** across benchmark workloads
+
+<p align="center">
+  <a href="https://github.com/AxC1271/RISCV-v2">
+    <img src="assets/rv32i_v2_schematic.png" alt="FPGA Synthesis" width="840">
+  </a>
+</p>
 
 This project taught me most of the pipeline, cache, timing, and control infrastructure that I later reused and extended in v3.
 
