@@ -95,7 +95,11 @@ This project taught me most of the pipeline, cache, timing, and control infrastr
 
 Led an undergraduate ASIC design team through RTL development and tapeout of a small single-cycle RISC-V processor through Tiny Tapeout.
 
-[View GDS →](https://gds-viewer.tinytapeout.com/?model=https://john-paul-sm.github.io/ASICWRU_SimpleCounter/tinytapeout.oas&pdk=gf180mcuD)
+<p align="center">
+  <a href="https://github.com/john-paul-sm/ASICWRU_SimpleCounter">
+    <img src="assets/cwru_cpu.png" alt="Club's First Tapeout!" width="840">
+  </a>
+</p>
 
 ### [Tiny Pong — SkyWater 130nm](https://github.com/AxC1271/Tiny-Pong)
 
@@ -103,7 +107,7 @@ VGA Pong controller implemented in Verilog and taped out through Tiny Tapeout.
 
 <p align="center">
   <a href="https://github.com/AxC1271/Tiny-Pong">
-    <img src="assets/tiny_pong.png" alt="PCB Traces" width="840">
+    <img src="assets/tiny_pong.png" alt="Tiny Pong" width="840">
   </a>
 </p>
 
