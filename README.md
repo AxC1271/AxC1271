@@ -2,47 +2,91 @@
 
 **MS ECE @ Carnegie Mellon | Computer Architecture · RTL Design · ASIC/FPGA**
 
-I build processors and digital hardware from microarchitecture through RTL and implementation. Currently working on a 2-way superscalar RISC-V processor and an INT8 neural-network accelerator.
+I build processors and digital hardware from microarchitecture through RTL, verification, and physical implementation.
+
+Most of my work right now is around CPU microarchitecture: superscalar execution, branch prediction, out-of-order execution, caches, and memory systems. I’m also building an INT8 neural-network accelerator to explore architectures outside general-purpose CPUs.
 
 Previously Design Lead @ [ASICWRU — CWRU CHIPS ASIC Design](https://asicwru.netlify.app).
 
 ## Featured Projects
 
-### [RISC-V v3 — 2-Way Superscalar RV32I](https://github.com/AxC1271/RISCV-v3) · In Progress
+### [RISC-V v4 — 2-Way Superscalar RV32IM OoO Processor](YOUR_V4_LINK) · In Progress
 
-2-way superscalar in-order processor exploring instruction-level parallelism and branch prediction.
+Building an out-of-order superscalar RISC-V processor to explore the bottlenecks that remain after widening an in-order machine.
 
-* 2-wide fetch/dispatch, dual ALUs, 4R/2W register file, multi-lane forwarding, and instruction replay
-* Always Not-Taken, Bimodal, and Gshare branch prediction
-* ~**1.85 IPC** on independent instruction streams, approaching the theoretical 2.0 IPC maximum
-* Comparing predictor accuracy, IPC, and implementation complexity across application workloads
-* Moving toward synthesis, timing analysis, and physical implementation
+Current work includes:
+
+* Register renaming and physical register management
+* Reservation stations / dynamic instruction scheduling
+* Reorder-buffer-based in-order retirement
+* Speculative execution and branch recovery
+* RV32IM execution support
+* Multi-level cache hierarchy and memory-system work
+* Exploring cache coherence and more scalable SoC architecture
+
+The goal is not just to make a wider processor, but to understand where instruction-level parallelism is actually lost and what hardware is required to recover it.
+
+---
+
+### [RISC-V v3 — 2-Way Superscalar RV32I](https://github.com/AxC1271/RISCV-v3)
+
+2-way superscalar in-order processor built to explore instruction-level parallelism, branch prediction, and the physical cost of a wider machine.
+
+* 2-wide fetch/dispatch with dual integer ALUs
+* 4R/2W register file and multi-lane bypass forwarding
+* RAW/WAW, load-use, branch, and structural hazard handling
+* Instruction replay for unsupported issue combinations
+* Always Not-Taken, 2-bit Bimodal, and GShare branch predictors
+* ~**1.85 IPC** on independent-ALU workloads, approaching the theoretical 2.0 IPC limit
+* ~**18% IPC improvement** on Matrix Multiply and ~**32%** on Bubble Sort versus my previous scalar core
+* GShare reduced String Search branch mispredictions by ~**37%** compared with Bimodal
+* Synthesized, placed, routed, and exported to GDS targeting SkyWater 130nm
+
+---
 
 ### [mini-NPU — INT8 Systolic Accelerator](https://github.com/AxC1271/mini-NPU) · In Progress
 
-Building a custom INT8 neural processing unit in SystemVerilog around a planned **8×8 systolic MAC array** for matrix-heavy inference workloads.
+Building an INT8 neural processing unit in SystemVerilog around a parameterized systolic MAC architecture.
 
-The current work is focused on the parameterized INT8/INT32 processing element and the dataflow required to scale it into a systolic array. The project will explore array utilization, tiling, data reuse, memory bandwidth, and the gap between theoretical and sustained compute throughput.
+Current work focuses on the INT8/INT32 processing element and the dataflow required to scale it into an **8×8 systolic array**.
+
+The project is intended to explore:
+
+* Array utilization and tiling
+* Weight / activation data reuse
+* Memory bandwidth pressure
+* INT8 multiply-accumulate datapaths
+* The difference between theoretical and sustained accelerator throughput
 
 **Target:** 64 MACs/cycle · INT8 operands · INT32 accumulation · SkyWater 130nm
 
+---
+
 ### [RISC-V v2 — 5-Stage Pipelined RV32I](https://github.com/AxC1271/RISCV-v2)
 
-5-stage in-order processor with forwarding, hazard detection, and split L1 caches.
+My previous scalar processor and the design that became the foundation for the later RISC-V projects.
 
-**58.8 MHz post-synthesis · 85 MHz FPGA · 0.64–0.76 IPC**
+* 5-stage IF / ID / EX / MEM / WB pipeline
+* EX-stage branch resolution
+* Dual forwarding paths and load-use hazard detection
+* Direct-mapped I-cache and 2-way set-associative write-back D-cache
+* FPGA implementation at **85 MHz**
+* SkyWater 130nm synthesis / STA at **58.8 MHz**
+* **0.64–0.76 IPC** across benchmark workloads
 
-Direct-mapped I-cache and 2-way set-associative write-back D-cache, with synthesis and static timing analysis targeting SkyWater 130nm.
+This project taught me most of the pipeline, cache, timing, and control infrastructure that I later reused and extended in v3.
+
+## Earlier Hardware
 
 ### [CWRU CPU — RISC-V ASIC](https://github.com/john-paul-sm/ASICWRU_SimpleCounter)
 
-Led an undergraduate design team through RTL development and tapeout of a single-cycle RISC-V processor via Tiny Tapeout.
+Led an undergraduate ASIC design team through RTL development and tapeout of a small single-cycle RISC-V processor through Tiny Tapeout.
 
 [View GDS →](https://gds-viewer.tinytapeout.com/?model=https://john-paul-sm.github.io/ASICWRU_SimpleCounter/tinytapeout.oas&pdk=gf180mcuD)
 
 ### [Tiny Pong — SkyWater 130nm](https://github.com/AxC1271/Tiny-Pong)
 
-VGA Pong controller implemented in Verilog and taped out on SkyWater 130nm through Tiny Tapeout.
+VGA Pong controller implemented in Verilog and taped out through Tiny Tapeout.
 
 [View GDS →](https://axc1271.github.io/TinyPong/)
 
@@ -52,8 +96,8 @@ Custom STM32F103 development board designed in KiCad and fabricated at JLCPCB, w
 
 ## Tools
 
-**RTL:** SystemVerilog · Verilog · VHDL · RISC-V Assembly
-**EDA:** Vivado · Yosys · OpenSTA · SymbiYosys · Icarus Verilog · KiCad
+**RTL / Architecture:** SystemVerilog · Verilog · VHDL · RISC-V Assembly  
+**EDA:** Vivado · Yosys · OpenSTA · SymbiYosys · Icarus Verilog · KiCad  
 **Software:** C · Python · Bash · Git · Linux · Docker
 
 ## Outside Hardware
