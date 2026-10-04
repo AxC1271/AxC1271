@@ -47,7 +47,7 @@ The goal is not just to make a wider processor, but to understand where instruct
     <img src="assets/rv32i_v3_microarchitecture_rectangles.png" alt="RV32I v3 physical microarchitecture" width="420">
   </a>
   <a href="https://github.com/AxC1271/RISCV-v3">
-    <img src="assets/rv32i_v3_gds_die_raw.png" alt="RV32I v3 GDSII die" width="420">
+    <img src="assets/rv32i_v3_raw.png" alt="RV32I v3 GDSII die" width="420">
   </a>
 </p>
 <p align="center"><sub>Final Sky130 layout of the 2-way superscalar core (OpenROAD, RTL to GDSII). Left: dominant physical neighborhoods inferred from placed cells. Right: full die.</sub></p>
