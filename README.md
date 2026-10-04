@@ -104,6 +104,12 @@ VGA Pong controller implemented in Verilog and taped out through Tiny Tapeout.
 
 Custom STM32F103 development board designed in KiCad and fabricated at JLCPCB, with FPGA-based UART validation.
 
+<p align="center">
+  <a href="https://github.com/AxC1271/STM32-DevBoard">
+    <img src="assets/stm32_trace" alt="PCB Traces" width="420">
+  </a>
+</p>
+
 ## Tools
 
 **RTL / Architecture:** SystemVerilog · Verilog · VHDL · RISC-V Assembly  
