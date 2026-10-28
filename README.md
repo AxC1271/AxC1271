@@ -4,10 +4,6 @@
 
 I build processors and digital hardware from microarchitecture through RTL, verification, and physical implementation.
 
-Most of my work right now is around CPU microarchitecture: superscalar execution, branch prediction, out-of-order execution, caches, and memory systems. I’m also building an INT8 neural-network accelerator to explore architectures outside general-purpose CPUs.
-
-Previously Design Lead @ [ASICWRU — CWRU CHIPS ASIC Design](https://asicwru.netlify.app).
-
 ## Featured Projects
 
 ### [RISC-V v4 — 2-Way Superscalar RV32IM OoO Processor](https://github.com/AxC1271/RISCV-v4) · In Progress
